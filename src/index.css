@@ -5,9 +5,51 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(8,84,194,1) 0%, rgba(70,156,252,0) 100%);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+.center
+{
+	display: flex;
+	justify-content: center;	
+}
+
+.set{
+	width: 300px;
+}
+
+.font1
+{
+	 font-family: "Times New Roman", Times, serif;
+	 text-align:center;
+}
+
+.font2{
+	 font-family: "Lucida Console", Courier, monospace;
+	 text-align: center;
+}
+
+.font
+{
+	  font-size: 80px;
+	  letter-spacing: 10px;
+	  font-family: "Lucida Console", Courier, monospace;
+	  padding: 40px;
+	  border: 3px solid black;
+}
+.form
+{
+	width: 400px;
+	border: 3px solid blue;
+background:
+radial-gradient(circle at 100% 50%, transparent 20%, rgba(255,255,255,.3) 21%, rgba(255,255,255,.3) 34%, transparent 35%, transparent),
+radial-gradient(circle at 0% 50%, transparent 20%, rgba(255,255,255,.3) 21%, rgba(255,255,255,.3) 34%, transparent 35%, transparent) 0 -50px;
+background-color: slategray;
+background-size:75px 100px;
 }
