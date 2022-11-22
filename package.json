@@ -15,7 +15,7 @@
     "react-download-link": "^2.3.0",
     "react-file-download": "^0.3.5",
     "react-native-installed-packages": "^0.2.0",
-    "react-scripts": "3.4.1",
+    "react-scripts": "5.0.1",
     "react-speech": "^1.0.2",
     "react-speech-kit": "^2.0.5",
     "tachyons": "^4.11.1"
